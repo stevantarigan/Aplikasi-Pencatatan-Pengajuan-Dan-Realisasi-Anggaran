@@ -1,64 +1,121 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Budget Information System
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="https://img.shields.io/badge/Laravel-Framework-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
+  <img src="https://img.shields.io/badge/PHP-Backend-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/HTML5-Frontend-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-Frontend-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
 </p>
 
-## About Laravel
+<p align="center">
+  A web-based budgeting application designed to manage budget planning, financial records, and reporting through an integrated information system.
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## About The Project
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+The **Budget Information System** is a web-based application developed to facilitate budget planning and financial data management through a centralized platform.
 
-## Learning Laravel
+The system provides functionality for managing budget information, maintaining financial records, and organizing budget-related data. It incorporates authentication and CRUD operations to support secure access and structured data management.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Developed using Laravel and MySQL, the application combines backend functionality, relational database management, and responsive user interfaces to support budget planning and reporting activities.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Key Features
 
-## Laravel Sponsors
+### 1. User Authentication
+- Provides authentication functionality for system access.
+- Supports user login and session management.
+- Restricts access to application features based on authentication status.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### 2. Budget Management
+- Create, view, update, and delete budget records.
+- Organize budget information within the system.
+- Maintain structured budget data for planning activities.
 
-### Premium Partners
+### 3. Financial Data Management
+- Manage and maintain budget-related financial records.
+- Organize financial information within a centralized database.
+- Support structured financial data administration.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+### 4. Budget Planning
+- Organize budget information for planning purposes.
+- Maintain budget records to support financial planning activities.
+- Provide structured access to budget-related information.
 
-## Contributing
+### 5. Reporting
+- Present organized budget information.
+- Support budget monitoring and financial data review.
+- Provide reporting functionality for budget-related activities.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 6. Responsive User Interface
+- Responsive layouts for different screen sizes.
+- Organized navigation and user-friendly interfaces.
+- Built using HTML, CSS, and JavaScript.
 
-## Code of Conduct
+## Technology Stack
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+| Category | Technology |
+|---|---|
+| Programming Language | PHP |
+| Backend Framework | Laravel |
+| Database | MySQL |
+| Frontend | HTML5, CSS3, JavaScript |
+| Version Control | Git |
+| Repository Hosting | GitHub |
 
-## Security Vulnerabilities
+## System Architecture
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+The application follows a web-based architecture with Laravel handling backend processes, application logic, authentication, and database interactions.
 
-## License
+MySQL serves as the relational database management system for storing and managing budget information and financial records.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The frontend is developed using HTML, CSS, and JavaScript to provide responsive interfaces for accessing budget management and reporting functionality.
+
+## Database Management
+
+MySQL is used as the primary relational database management system.
+
+The database structure is designed to organize and maintain budget-related information, supporting the application's main operations, including:
+
+- **Users:** Stores user information and authentication-related data.
+- **Budgets:** Maintains budget records and planning information.
+- **Financial Records:** Organizes financial data associated with budget management.
+
+The relational database structure supports organized data storage and efficient information management.
+
+## Core Functionality
+
+The system implements CRUD (Create, Read, Update, and Delete) operations to manage budget information throughout its lifecycle.
+
+| Operation | Description |
+|---|---|
+| Create | Add new budget records. |
+| Read | View and retrieve existing budget information. |
+| Update | Modify existing budget records. |
+| Delete | Remove budget records from the system. |
+
+## Project Objectives
+
+- Simplify budget planning and financial data management.
+- Centralize budget-related information within a web-based application.
+- Provide authentication to control system access.
+- Implement CRUD functionality for structured budget management.
+- Support budget monitoring and reporting activities.
+- Improve data organization through relational database design.
+
+## Developer
+
+**Stevan Tarigan**
+
+Full Stack Developer
+
+Developed as a web application project demonstrating full-stack development using Laravel and MySQL, including authentication, CRUD implementation, relational database design, responsive frontend development, and budget reporting functionality.
+
+---
+
+<p align="center">
+  Developed using Laravel and MySQL.
+</p>
